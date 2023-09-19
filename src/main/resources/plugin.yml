@@ -1,0 +1,13 @@
+name: TestListenerPlugin
+version: 1.0.0
+author: Neovitalism
+main: me.neovitalism.testlistener.TestListenerPlugin
+description: A plugin made to test Forge events in a Bukkit environment.
+api-version: 1.20
+
+commands:
+  testlistener:
+    aliases: []
+    description: Command to toggle the example listener.
+    permission: neoextras.testlistener
+    permission-message: Unknown Command. Type "/help" for help.
