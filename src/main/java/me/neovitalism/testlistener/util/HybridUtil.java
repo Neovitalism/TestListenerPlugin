@@ -26,7 +26,7 @@ public final class HybridUtil {
         if(arclight) {
             Arclight.registerForgeEvent(plugin, eventBus, target);
         } else if(mohist) {
-            TestListenerPlugin.inst().registerForgeEvent(eventBus, target);
+            plugin.registerForgeEvent(eventBus, target);
         } else eventBus.register(target);
     }
 
