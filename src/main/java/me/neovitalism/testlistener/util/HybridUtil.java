@@ -1,7 +1,6 @@
 package me.neovitalism.testlistener.util;
 
 import io.izzel.arclight.api.Arclight;
-import me.neovitalism.testlistener.TestListenerPlugin;
 import net.minecraftforge.eventbus.api.IEventBus;
 import org.bukkit.plugin.java.JavaPlugin;
 
